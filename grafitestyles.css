@@ -76,6 +76,7 @@
   position: absolute;
   top: 3.25vh;
   right: 17vw;
+  cursor: pointer;
 }
 
 #facebooklogo{
@@ -84,6 +85,7 @@
   position: absolute;
   top: 3.25vh;
   right: 20vw;
+  cursor: pointer;
 }
 
 #instagramlogo{
@@ -92,6 +94,7 @@
   position: absolute;
   top: 3.25vh;
   right: 14vw;
+  cursor: pointer;
 }
 
 #grafitelogo{
@@ -100,6 +103,7 @@
   position: absolute;
   top: 0;
   left: 1vw;
+  cursor: pointer;
 }
 
 #homepagemessage{
@@ -108,4 +112,37 @@
   border: 1px solid black;
   background-color: white;
   text-align: center;
+}
+
+#contactform{
+  margin: none;
+  padding: none;
+  border: none;
+  position: absolute;
+  top: 9vh;
+  right: 0vw;
+  width: 50vw;
+  height: 100vh;
+}
+
+#contactinfo{
+  font-family: 'Poppins', sans-serif;
+  width: 50vw;
+  position: absolute;
+  top: 25vh;
+  left: 4vw;
+  text-align: center;
+  font-size: 1vw;
+}
+
+#contactheader{
+  font-family: 'Poppins', sans-serif;
+  width: 58vw;
+  text-align: center;
+  font-size: 2vw;
+  font-weight: bold;
+  position: absolute;
+  top: 15vh;
+  left: 0vh;
+  height: 10vh;
 }
