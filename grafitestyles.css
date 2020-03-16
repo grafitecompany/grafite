@@ -127,10 +127,10 @@
 
 #contactinfo{
   font-family: 'Poppins', sans-serif;
-  width: 50vw;
+  width: 40vw;
   position: absolute;
   top: 25vh;
-  left: 4vw;
+  left: 9vw;
   text-align: center;
   font-size: 1vw;
 }
