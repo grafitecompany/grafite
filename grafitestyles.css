@@ -146,3 +146,21 @@
   left: 0vh;
   height: 10vh;
 }
+
+#missionheader{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2vw;
+  font-weight: bold;
+  position: absolute;
+  top: 20vh;
+  left: 8vw;
+}
+
+#missioninfo{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1vw;
+  position: absolute;
+  top: 20vh;
+  right: 8vw;
+  width: 50vw;
+}
