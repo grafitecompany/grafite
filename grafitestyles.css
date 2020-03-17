@@ -109,8 +109,8 @@
 #homepagemessage{
   width: 100vw;
   height: 55vh;
-  border: 1px solid black;
-  background-color: white;
+  /*border: 1px solid black;*/
+  background-color: #f2f2f2;
   text-align: center;
 }
 
@@ -168,5 +168,5 @@
 #services{
   font-family: 'Poppins', sans-serif;
   display: grid;
-  grid-template-rows: 
+  grid-template-rows:
 }
