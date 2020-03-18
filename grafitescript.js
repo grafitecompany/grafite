@@ -5,6 +5,7 @@ function checker(){
 
   }else if(window.innerWidth < window.innerHeight){ //Mobile
     memory = "Mobile";
+    window.location.href = "./mobilehome.html";
   }
 }
   /*window.setInterval(function(){

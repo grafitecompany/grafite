@@ -129,7 +129,7 @@
   font-family: 'Poppins', sans-serif;
   width: 40vw;
   position: absolute;
-  top: 25vh;
+  top: 30vh;
   left: 9vw;
   text-align: center;
   font-size: 1vw;
@@ -142,7 +142,7 @@
   font-size: 2vw;
   font-weight: bold;
   position: absolute;
-  top: 15vh;
+  top: 20vh;
   left: 0vh;
   height: 10vh;
 }
