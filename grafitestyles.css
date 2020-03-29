@@ -165,8 +165,22 @@
   width: 50vw;
 }
 
-#services{
-  font-family: 'Poppins', sans-serif;
-  display: grid;
-  grid-template-rows:
+.serviceRequestButton{
+  background-color: #8fc5e3;
+  width: 10vw;
+  height: 8vh;
+  border: none;
+  font-family: Poppins;
+  font-weight: bold;
+  color: white;
+  font-size: 120%;
+  margin: 0 auto;
+  display: block;
+}
+
+.serviceRequestForm{
+  width: 60vw;
+  height: 80vh;
+  margin: 10vh auto auto auto;
+  display: block;
 }
