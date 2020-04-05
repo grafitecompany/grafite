@@ -168,7 +168,6 @@
 
 .serviceRequestButton{
   background-color: #8fc5e3;
-  width: 10vw;
   height: 8vh;
   border: none;
   font-family: Poppins;
@@ -178,6 +177,7 @@
   margin: 0 auto;
   display: block;
   cursor: pointer;
+  padding: 1vw;
 }
 
 .serviceRequestForm{
