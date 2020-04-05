@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Poppins;
 }
 
 #navbarbackground{
@@ -176,6 +177,7 @@
   font-size: 120%;
   margin: 0 auto;
   display: block;
+  cursor: pointer;
 }
 
 .serviceRequestForm{
@@ -191,7 +193,7 @@
   margin: 0 auto;
   border: 1px solid black;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 15vw;
+  grid-column-gap: 5vw;
   grid-row-gap: 2vh;
   margin-top: 4vh;
 }
@@ -202,6 +204,9 @@
 }
 
 .teamgriddesc{
-  background-color: grey;
-  height: 20vh;
+  padding: 0.5vw;
+  background-color: white;
+  color: black;
+  font-family: Poppins;
+  font-size: 98%;
 }
