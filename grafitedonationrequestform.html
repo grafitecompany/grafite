@@ -6,25 +6,50 @@
     <title>Grafite | Supply Request</title>
   </head>
   <body style="background-color: #fcfcfc;" onload="checker()">
-    <div id="navbarbackground">
-    </div>
-    <a href = "./index.html">
-      <button id="homebutton" href="./home.html" style="cursor: pointer;">Grafite</button>
-      <img src="./images/grafite_logo" id="grafitelogo">
-    </a>
-    <table id="navbar">
-      <tr>
-        <td class="navbutton" onclick="location.href='./grafiteourmission.html'">Our Mission</td>
-        <td class="navbutton" onclick="location.href='./grafiteteam.html'">Team</td>
-        <td class="navbutton" onclick="location.href='./grafiteservices.html'">Services</td>
-        <td class="navbutton" onclick="location.href='./grafitecontactus.html'">Contact Us</td>
-      </tr>
-    </table>
-    <img src="./images/twitter_logo.png" id="twitterlogo" onclick="window.open('https://twitter.com/CompanyGrafite', '_blank')">
-    <img src="./images/facebook_logo.png" id="facebooklogo" onclick="window.open('https://www.facebook.com/grafitenp', '_blank')">
-    <img src="./images/instagram_logo.png" id="instagramlogo" onclick="window.open('https://www.instagram.com/grafite_inc/', '_blank')">
-    <button id="donatebutton">Donate Now</button>
+    <div id="contentWrap">
+      <div id="navbarbackground">
+      </div>
+      <a href = "./index.html">
+        <button id="homebutton" href="./home.html" style="cursor: pointer;">Grafite</button>
+        <img src="./images/grafite_logo" id="grafitelogo">
+      </a>
+      <table id="navbar">
+        <tr>
+          <td class="navbutton" onclick="location.href='./grafiteourmission.html'">Our Mission</td>
+          <td class="navbutton" onclick="location.href='./grafiteteam.html'">Team</td>
+          <td class="navbutton" onclick="location.href='./grafiteservices.html'">Services</td>
+          <td class="navbutton" onclick="location.href='./grafitecontactus.html'">Contact Us</td>
+        </tr>
+      </table>
+      <img src="./images/twitter_logo.png" id="twitterlogo" onclick="window.open('https://twitter.com/CompanyGrafite', '_blank')">
+      <img src="./images/facebook_logo.png" id="facebooklogo" onclick="window.open('https://www.facebook.com/grafitenp', '_blank')">
+      <img src="./images/instagram_logo.png" id="instagramlogo" onclick="window.open('https://www.instagram.com/grafite_inc/', '_blank')">
+      <button id="donatebutton" onclick="window.open('https://gf.me/u/xxavxh', '_blank')">Donate Now</button>
 
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdEMxAyEQn1uqhPoRzdtV2XpiCayrCEKk3CP873c3ru42djtw/viewform?embedded=true" class="serviceRequestForm" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdEMxAyEQn1uqhPoRzdtV2XpiCayrCEKk3CP873c3ru42djtw/viewform?embedded=true" class="serviceRequestForm" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+    <footer id ="footer">
+      <div id = "footerGrafiteText">
+        Grafite
+      </div>
+      <div id = "footerImages">
+        <img src="./images/facebook_logo.png" onclick="window.open('https://www.facebook.com/grafitenp', '_blank')" style="margin-right: 0.5vw; height: 2vh; width: 2vh;">
+        <img src="./images/twitter_logo.png" onclick="window.open('https://twitter.com/CompanyGrafite', '_blank')" style="margin-left: 0.5vw; margin-right: 0.5vw; height: 2vh; width: 2vh;">
+        <img src="./images/instagram_logo.png" onclick="window.open('https://www.instagram.com/grafite_inc/', '_blank')" style=" margin-left: 0.5vw; height: 2vh; width: 2vh;">
+      </div>
+      <table id="footerTable">
+        <tr>
+          <td class="footerTableButton"><a href="./index.html" class="footerTableButton">Home</a></td>
+          <td class="footerTableButton"><a href="./grafiteourmission.html" class="footerTableButton">Our Mission</a></td>
+        </tr>
+        <tr>
+          <td class="footerTableButton"><a href="./grafiteteam" class="footerTableButton">Team</a></td>
+          <td class="footerTableButton"><a href="./grafiteservices" class="footerTableButton">Services</a></td>
+        </tr>
+        <tr>
+          <td class="footerTableButton"><a href="grafitecontactus" class="footerTableButton">Contact Us</a></td>
+        </tr>
+      </table>
+    </footer>
   </body>
 </html>
