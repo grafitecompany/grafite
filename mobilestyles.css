@@ -62,6 +62,7 @@ html, body{
 .mobileNavButton{
   text-align: center;
   width: 25vw;
+  font-size: 2vh;
 }
 
 #mobileSocialLinks{
