@@ -1,16 +1,20 @@
 function homeChecker(){
   window.setInterval(function(){
+    console.log("a");
+    console.log(localStorage.getItem("varKey"));
     let memory;
-    if((window.innerWidth > window.innerHeight) && localStorage.getItem("varKey") !== "Desktop"){ //Desktop
+    if((window.innerWidth > window.innerHeight) && sessionStorage.getItem("varKey") !== "Desktop"){ //Desktop
       memory = "Desktop";
-      localStorage.setItem("varKey", memory);
+      sessionStorage.setItem("varKey", memory);
       window.location.href = "./index.html"
-    }else if((window.innerWidth < window.innerHeight) && localStorage.getItem("varKey") !== "Mobile"){ //Mobile
+      console.log("b");
+    }else if((window.innerWidth < window.innerHeight) && sessionStorage.getItem("varKey") !== "Mobile"){ //Mobile
       memory = "Mobile";
-      localStorage.setItem("varKey", memory);
+      sessionStorage.setItem("varKey", memory);
       window.location.href = "./mobilehome.html";
+      console.log("c");
     }
-  }, 20);
+  }, 100);
 }
 
 
