@@ -4,7 +4,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Poppins;
+  font-family: 'Poppins';
 }
 
 html, body{
@@ -14,10 +14,58 @@ html, body{
   padding: 0;
 }
 
-#homePageHeader{
-  width: 100vw;
-  height: 2vh;
-  background: white;
+#mobileHeaderBackground{
+  height: 13vh;
+  width: 100%;
+  background-color: white;
+}
+
+#mobileHeaderContentWrapper{
+  display: block;
+  margin: 0 auto;
+
+}
+
+#mobileHeaderText{
   font-family: 'Exo 2';
+  height: 8vh;
+  width: 30vw;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0vw;
+  font-size: 8vw;
+  border: 0;
+  background-color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+#mobileHeaderImage{
+  height: 8vh;
+  width: 9vh;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 30vw;
+}
+
+#mobileNavButtonContainer{
+  height: 5vh;
+  position: absolute;
+  top: 8vh;
+  width: 100vw;
+}
+
+.mobileNavButton{
   text-align: center;
+  width: 25vw;
+}
+
+#mobileSocialLinks{
+  position: absolute;
+  top: 2.5vh;
+  right: 4vw;
 }

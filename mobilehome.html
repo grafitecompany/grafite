@@ -5,7 +5,26 @@
     <script src="./grafitescript.js" type = text/javascript></script>
     <title>Grafite | Home</title>
   </head>
-  <body onload = "checker()">
-    <h1 id="homePageHeader">Grafite</h1>
+  <body onload = "homeChecker()">
+    <div id="mobileHeaderBackground"></div>
+    <a href="./mobilehome.html" id="mobileHeaderContentWrapper">
+      <button id="mobileHeaderText">Grafite</button>
+      <img id="mobileHeaderImage" src="./images/grafite_logo">
+    </a>
+
+      <table id="mobileNavButtonContainer">
+        <tr>
+          <td class="mobileNavButton" onclick="location.href='./grafiteourmission.html'">Our Mission</td>
+          <td class="mobileNavButton" onclick="location.href='./grafiteteam.html'">Team</td>
+          <td class="mobileNavButton" onclick="location.href='./grafiteservices.html'">Services</td>
+          <td class="mobileNavButton" onclick="location.href='./grafitecontactus.html'">Contact Us</td>
+        </tr>
+      </table>
+
+      <div id = "mobileSocialLinks">
+        <img src="./images/facebook_logo.png" onclick="window.open('https://www.facebook.com/grafitenp', '_blank')" style="margin-right: 1vw; height: 3vh; width: 3vh;">
+        <img src="./images/twitter_logo.png" onclick="window.open('https://twitter.com/CompanyGrafite', '_blank')" style="margin-left: 1vw; margin-right: 1vw; height: 3vh; width: 3vh;">
+        <img src="./images/instagram_logo.png" onclick="window.open('https://www.instagram.com/grafite_inc/', '_blank')" style=" margin-left: 1vw; height: 3vh; width: 3vh;">
+      </div>
   </body>
 </html>

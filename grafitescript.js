@@ -1,4 +1,4 @@
-function checker(){
+function homeChecker(){
   window.setInterval(function(){
     let memory;
     if((window.innerWidth > window.innerHeight) && localStorage.getItem("varKey") !== "Desktop"){ //Desktop
