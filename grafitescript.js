@@ -1,13 +1,21 @@
 function checker(){
-  let memory;
-  if(window.innerWidth > window.innerHeight){ //Desktop
-    memory = "Desktop";
-
-  }else if(window.innerWidth < window.innerHeight){ //Mobile
-    memory = "Mobile";
-    window.location.href = "./mobilehome.html";
-  }
+  window.setInterval(function(){
+    let memory;
+    if((window.innerWidth > window.innerHeight) && localStorage.getItem("varKey") !== "Desktop"){ //Desktop
+      memory = "Desktop";
+      localStorage.setItem("varKey", memory);
+      window.location.href = "./index.html"
+    }else if((window.innerWidth < window.innerHeight) && localStorage.getItem("varKey") !== "Mobile"){ //Mobile
+      memory = "Mobile";
+      localStorage.setItem("varKey", memory);
+      window.location.href = "./mobilehome.html";
+    }
+  }, 20);
 }
+
+
+
+
   /*window.setInterval(function(){
     if(window.innerWidth > window.innerHeight && memory == "Desktop"){ //Desktop
       document.open();
