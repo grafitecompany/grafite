@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="./mobilestyles.css" type="text/css" rel="stylesheet">
+    <script src="./grafitescript.js" type = text/javascript></script>
+    <title>Grafite | Services</title>
+  </head>
+  <body onload = "homeChecker()">
+    <div id="mobileHeaderBackground"></div>
+    <a href="./mobilehome.html" id="mobileHeaderContentWrapper">
+      <button id="mobileHeaderText">Grafite</button>
+      <img id="mobileHeaderImage" src="./images/grafite_logo">
+    </a>
+
+      <table id="mobileNavButtonContainer">
+        <tr>
+          <td class="mobileNavButton" onclick="location.href='./mobileOurMission.html'">Our Mission</td>
+          <td class="mobileNavButton" onclick="location.href='./mobileTeam.html'">Team</td>
+          <td class="mobileNavButton" onclick="location.href='./mobileServices.html'">Services</td>
+          <td class="mobileNavButton" onclick="location.href='./mobileContactUs.html'">Contact Us</td>
+        </tr>
+      </table>
+
+      <div id = "mobileSocialLinks">
+        <img src="./images/facebook_logo.png" onclick="window.open('https://www.facebook.com/grafitenp', '_blank')" style="margin-right: 1vw; height: 3vh; width: 3vh;">
+        <img src="./images/twitter_logo.png" onclick="window.open('https://twitter.com/CompanyGrafite', '_blank')" style="margin-left: 1vw; margin-right: 1vw; height: 3vh; width: 3vh;">
+        <img src="./images/instagram_logo.png" onclick="window.open('https://www.instagram.com/grafite_inc/', '_blank')" style=" margin-left: 1vw; height: 3vh; width: 3vh;">
+      </div>
+
+      <h1 style="font-size: 6vh; font-weight: bold; text-align: center;">Our Services</h1>
+      <div style="font-size: 4vh; text-align: center;">Supply Donations</div>
+      <div style="font-size: 4vw; width: 90%; display: block; margin: 0 auto;">Grafite's main service is providing school supplies to those who can't afford them. In doing so, we hope to remove any supply-related limits on student performance and achievement. What kinds of supplies we collect and donate will depend on the school with which we are working, but they generally include such items as pens and pencils, folders, binders, notebooks, backpacks, and calculators. We also collect classroom supplies like disinfectant wipes and dry erase markers. All of the supplies we distribute are either collected from supply drives or purchased using fundraised money. They are then donated directly to schools, who in turn distribute them amongst students.<br><br></div>
+      <button class="mobileServiceRequestButton" onclick="location.href='./mobileDonationRequestForm.html'">Request Supplies</button>
+
+      <br><br><br>
+
+      <div style="font-size: 4vh; text-align: center;">Tutoring</div>
+      <div style="font-size: 4vw; width: 90%; display: block; margin: 0 auto;">Grafite offers tutoring services in a variety of subjects using a case by case decision process to determine how to handle each tutor request. Case by case means that the tutoring format varies for each student. Some students may be tutored together with others while some students may be tutored one on one, and some tutoring may take place online while some may be done in person. Although our team consists of many incredibly high-achieving students, please bear in mind that we are not professional tutors, and we do not have formal training as instructors. We simply wish to help in whatever way we can.<br><br></div>
+      <button class="mobileServiceRequestButton" onclick="location.href='./mobileTutoringRequestForm.html'">Request Tutoring</button>
+      <br><br>
+  </body>
+</html>
