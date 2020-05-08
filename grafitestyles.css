@@ -72,7 +72,7 @@ html, body{
   font-size: 1vw;
   border: none;
   outline: none;
-  background-color: #8fc5e3;
+  background-color: #ff0000;
   font-weight: bold;
   color: white;
   cursor: pointer;
@@ -157,7 +157,7 @@ html, body{
 
 #missionheader{
   font-family: 'Poppins', sans-serif;
-  font-size: 2vw;
+  font-size: 2.5vw;
   font-weight: bold;
   position: absolute;
   top: 19vh;
@@ -174,7 +174,7 @@ html, body{
 }
 
 .serviceRequestButton{
-  background-color: #8fc5e3;
+  background-color: #ff0000;
   height: 8vh;
   border: none;
   font-family: Poppins;
@@ -223,8 +223,8 @@ html, body{
   position: static;
   bottom: 0;
   height: 30vh;
-  background-color: #8fc5e3;
-  margin-top: 10vh;
+  background-color: #ff0000;
+  margin-top: 5vh;
 }
 
 #contentWrap{
