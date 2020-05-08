@@ -36,6 +36,100 @@ function contactChecker(){
   }, 100);
 }
 
+function donationRequestChecker(){
+  window.setInterval(function(){
+    console.log("a");
+    console.log(localStorage.getItem("varKey"));
+    let memory;
+    if((window.innerWidth > window.innerHeight) && sessionStorage.getItem("varKey") !== "Desktop"){ //Desktop
+      memory = "Desktop";
+      sessionStorage.setItem("varKey", memory);
+      window.location.href = "./grafitedonationrequestform.html"
+      console.log("b");
+    }else if((window.innerWidth < window.innerHeight) && sessionStorage.getItem("varKey") !== "Mobile"){ //Mobile
+      memory = "Mobile";
+      sessionStorage.setItem("varKey", memory);
+      window.location.href = "./mobileDonationRequestForm.html";
+      console.log("c");
+    }
+  }, 100);
+}
+
+function missionChecker(){
+  window.setInterval(function(){
+    console.log("a");
+    console.log(localStorage.getItem("varKey"));
+    let memory;
+    if((window.innerWidth > window.innerHeight) && sessionStorage.getItem("varKey") !== "Desktop"){ //Desktop
+      memory = "Desktop";
+      sessionStorage.setItem("varKey", memory);
+      window.location.href = "./grafiteourmission.html"
+      console.log("b");
+    }else if((window.innerWidth < window.innerHeight) && sessionStorage.getItem("varKey") !== "Mobile"){ //Mobile
+      memory = "Mobile";
+      sessionStorage.setItem("varKey", memory);
+      window.location.href = "./mobileOurMission.html";
+      console.log("c");
+    }
+  }, 100);
+}
+
+function servicesChecker(){
+  window.setInterval(function(){
+    console.log("a");
+    console.log(localStorage.getItem("varKey"));
+    let memory;
+    if((window.innerWidth > window.innerHeight) && sessionStorage.getItem("varKey") !== "Desktop"){ //Desktop
+      memory = "Desktop";
+      sessionStorage.setItem("varKey", memory);
+      window.location.href = "./grafiteservices.html"
+      console.log("b");
+    }else if((window.innerWidth < window.innerHeight) && sessionStorage.getItem("varKey") !== "Mobile"){ //Mobile
+      memory = "Mobile";
+      sessionStorage.setItem("varKey", memory);
+      window.location.href = "./mobileServices.html";
+      console.log("c");
+    }
+  }, 100);
+}
+
+function teamChecker(){
+  window.setInterval(function(){
+    console.log("a");
+    console.log(localStorage.getItem("varKey"));
+    let memory;
+    if((window.innerWidth > window.innerHeight) && sessionStorage.getItem("varKey") !== "Desktop"){ //Desktop
+      memory = "Desktop";
+      sessionStorage.setItem("varKey", memory);
+      window.location.href = "./grafiteteam.html"
+      console.log("b");
+    }else if((window.innerWidth < window.innerHeight) && sessionStorage.getItem("varKey") !== "Mobile"){ //Mobile
+      memory = "Mobile";
+      sessionStorage.setItem("varKey", memory);
+      window.location.href = "./mobileTeam.html";
+      console.log("c");
+    }
+  }, 100);
+}
+
+function tutoringFormChecker(){
+  window.setInterval(function(){
+    console.log("a");
+    console.log(localStorage.getItem("varKey"));
+    let memory;
+    if((window.innerWidth > window.innerHeight) && sessionStorage.getItem("varKey") !== "Desktop"){ //Desktop
+      memory = "Desktop";
+      sessionStorage.setItem("varKey", memory);
+      window.location.href = "./grafitetutoringrequestform.html"
+      console.log("b");
+    }else if((window.innerWidth < window.innerHeight) && sessionStorage.getItem("varKey") !== "Mobile"){ //Mobile
+      memory = "Mobile";
+      sessionStorage.setItem("varKey", memory);
+      window.location.href = "./mobileTutoringRequestForm.html";
+      console.log("c");
+    }
+  }, 100);
+}
 
 
   /*window.setInterval(function(){
