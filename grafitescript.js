@@ -17,6 +17,24 @@ function homeChecker(){
   }, 100);
 }
 
+function contactChecker(){
+  window.setInterval(function(){
+    console.log("a");
+    console.log(localStorage.getItem("varKey"));
+    let memory;
+    if((window.innerWidth > window.innerHeight) && sessionStorage.getItem("varKey") !== "Desktop"){ //Desktop
+      memory = "Desktop";
+      sessionStorage.setItem("varKey", memory);
+      window.location.href = "./grafitecontactus.html"
+      console.log("b");
+    }else if((window.innerWidth < window.innerHeight) && sessionStorage.getItem("varKey") !== "Mobile"){ //Mobile
+      memory = "Mobile";
+      sessionStorage.setItem("varKey", memory);
+      window.location.href = "./mobileContactUs.html";
+      console.log("c");
+    }
+  }, 100);
+}
 
 
 
