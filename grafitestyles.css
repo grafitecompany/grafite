@@ -168,7 +168,7 @@ html, body{
   font-family: 'Poppins', sans-serif;
   font-size: 1vw;
   position: absolute;
-  top: 22vh;
+  top: 25vh;
   right: 8vw;
   width: 50vw;
 }
@@ -223,7 +223,7 @@ html, body{
   position: static;
   bottom: 0;
   height: 30vh;
-  background-color: #ff0000;
+  background-color: black;
   margin-top: 5vh;
 }
 
@@ -241,6 +241,7 @@ html, body{
   position: relative;
   top: 10vh;
   left: 13vw;
+  color: white;
 }
 
 #footerTable{
