@@ -1,14 +1,16 @@
+
+
 function homeChecker(){
   window.setInterval(function(){
     console.log("a");
     console.log(localStorage.getItem("varKey"));
     let memory;
-    if((window.innerWidth > window.innerHeight) && sessionStorage.getItem("varKey") !== "Desktop"){ //Desktop
+    if((window.outerWidth > window.outerHeight) && sessionStorage.getItem("varKey") !== "Desktop"){ //Desktop
       memory = "Desktop";
       sessionStorage.setItem("varKey", memory);
       window.location.href = "./index.html"
       console.log("b");
-    }else if((window.innerWidth < window.innerHeight) && sessionStorage.getItem("varKey") !== "Mobile"){ //Mobile
+    }else if((window.outerWidth < window.outerHeight) && sessionStorage.getItem("varKey") !== "Mobile"){ //Mobile
       memory = "Mobile";
       sessionStorage.setItem("varKey", memory);
       window.location.href = "./mobilehome.html";
@@ -22,12 +24,12 @@ function contactChecker(){
     console.log("a");
     console.log(localStorage.getItem("varKey"));
     let memory;
-    if((window.innerWidth > window.innerHeight) && sessionStorage.getItem("varKey") !== "Desktop"){ //Desktop
+    if((window.outerWidth > window.outerHeight) && sessionStorage.getItem("varKey") !== "Desktop"){ //Desktop
       memory = "Desktop";
       sessionStorage.setItem("varKey", memory);
       window.location.href = "./grafitecontactus.html"
       console.log("b");
-    }else if((window.innerWidth < window.innerHeight) && sessionStorage.getItem("varKey") !== "Mobile"){ //Mobile
+    }else if((window.outerWidth < window.outerHeight) && sessionStorage.getItem("varKey") !== "Mobile"){ //Mobile
       memory = "Mobile";
       sessionStorage.setItem("varKey", memory);
       window.location.href = "./mobileContactUs.html";
@@ -41,12 +43,12 @@ function donationRequestChecker(){
     console.log("a");
     console.log(localStorage.getItem("varKey"));
     let memory;
-    if((window.innerWidth > window.innerHeight) && sessionStorage.getItem("varKey") !== "Desktop"){ //Desktop
+    if((window.outerWidth > window.outerHeight) && sessionStorage.getItem("varKey") !== "Desktop"){ //Desktop
       memory = "Desktop";
       sessionStorage.setItem("varKey", memory);
       window.location.href = "./grafitedonationrequestform.html"
       console.log("b");
-    }else if((window.innerWidth < window.innerHeight) && sessionStorage.getItem("varKey") !== "Mobile"){ //Mobile
+    }else if((window.outerWidth < window.outerHeight) && sessionStorage.getItem("varKey") !== "Mobile"){ //Mobile
       memory = "Mobile";
       sessionStorage.setItem("varKey", memory);
       window.location.href = "./mobileDonationRequestForm.html";
@@ -60,12 +62,12 @@ function missionChecker(){
     console.log("a");
     console.log(localStorage.getItem("varKey"));
     let memory;
-    if((window.innerWidth > window.innerHeight) && sessionStorage.getItem("varKey") !== "Desktop"){ //Desktop
+    if((window.outerWidth > window.outerHeight) && sessionStorage.getItem("varKey") !== "Desktop"){ //Desktop
       memory = "Desktop";
       sessionStorage.setItem("varKey", memory);
       window.location.href = "./grafiteourmission.html"
       console.log("b");
-    }else if((window.innerWidth < window.innerHeight) && sessionStorage.getItem("varKey") !== "Mobile"){ //Mobile
+    }else if((window.outerWidth < window.outerHeight) && sessionStorage.getItem("varKey") !== "Mobile"){ //Mobile
       memory = "Mobile";
       sessionStorage.setItem("varKey", memory);
       window.location.href = "./mobileOurMission.html";
@@ -79,12 +81,12 @@ function servicesChecker(){
     console.log("a");
     console.log(localStorage.getItem("varKey"));
     let memory;
-    if((window.innerWidth > window.innerHeight) && sessionStorage.getItem("varKey") !== "Desktop"){ //Desktop
+    if((window.outerWidth > window.outerHeight) && sessionStorage.getItem("varKey") !== "Desktop"){ //Desktop
       memory = "Desktop";
       sessionStorage.setItem("varKey", memory);
       window.location.href = "./grafiteservices.html"
       console.log("b");
-    }else if((window.innerWidth < window.innerHeight) && sessionStorage.getItem("varKey") !== "Mobile"){ //Mobile
+    }else if((window.outerWidth < window.outerHeight) && sessionStorage.getItem("varKey") !== "Mobile"){ //Mobile
       memory = "Mobile";
       sessionStorage.setItem("varKey", memory);
       window.location.href = "./mobileServices.html";
@@ -98,12 +100,12 @@ function teamChecker(){
     console.log("a");
     console.log(localStorage.getItem("varKey"));
     let memory;
-    if((window.innerWidth > window.innerHeight) && sessionStorage.getItem("varKey") !== "Desktop"){ //Desktop
+    if((window.outerWidth > window.outerHeight) && sessionStorage.getItem("varKey") !== "Desktop"){ //Desktop
       memory = "Desktop";
       sessionStorage.setItem("varKey", memory);
       window.location.href = "./grafiteteam.html"
       console.log("b");
-    }else if((window.innerWidth < window.innerHeight) && sessionStorage.getItem("varKey") !== "Mobile"){ //Mobile
+    }else if((window.outerWidth < window.outerHeight) && sessionStorage.getItem("varKey") !== "Mobile"){ //Mobile
       memory = "Mobile";
       sessionStorage.setItem("varKey", memory);
       window.location.href = "./mobileTeam.html";
@@ -117,12 +119,12 @@ function tutoringFormChecker(){
     console.log("a");
     console.log(localStorage.getItem("varKey"));
     let memory;
-    if((window.innerWidth > window.innerHeight) && sessionStorage.getItem("varKey") !== "Desktop"){ //Desktop
+    if((window.outerWidth > window.outerHeight) && sessionStorage.getItem("varKey") !== "Desktop"){ //Desktop
       memory = "Desktop";
       sessionStorage.setItem("varKey", memory);
       window.location.href = "./grafitetutoringrequestform.html"
       console.log("b");
-    }else if((window.innerWidth < window.innerHeight) && sessionStorage.getItem("varKey") !== "Mobile"){ //Mobile
+    }else if((window.outerWidth < window.outerHeight) && sessionStorage.getItem("varKey") !== "Mobile"){ //Mobile
       memory = "Mobile";
       sessionStorage.setItem("varKey", memory);
       window.location.href = "./mobileTutoringRequestForm.html";
