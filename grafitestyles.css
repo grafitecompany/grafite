@@ -76,6 +76,7 @@ html, body{
   font-weight: bold;
   color: white;
   cursor: pointer;
+  border-radius: 5%;
 }
 
 #twitterlogo{
