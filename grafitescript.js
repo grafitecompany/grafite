@@ -1,5 +1,3 @@
-
-
 function homeChecker(){
   window.setInterval(function(){
     console.log("a");
@@ -22,6 +20,9 @@ function homeChecker(){
       console.log("c");
     }
   }, 100);
+  window.blur(function(){
+    sessionStorage.clear();
+  })
 }
 
 /*function contactChecker(){
