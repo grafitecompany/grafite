@@ -24,7 +24,7 @@ function homeChecker(){
   }, 100);
 }
 
-function contactChecker(){
+/*function contactChecker(){
   window.setInterval(function(){
     console.log("a");
     console.log(localStorage.getItem("varKey"));
@@ -41,9 +41,9 @@ function contactChecker(){
       console.log("c");
     }
   }, 100);
-}
+}*/
 
-function donationRequestChecker(){
+/*function donationRequestChecker(){
   window.setInterval(function(){
     console.log("a");
     console.log(localStorage.getItem("varKey"));
@@ -60,7 +60,7 @@ function donationRequestChecker(){
       console.log("c");
     }
   }, 100);
-}
+}*/
 
 function missionChecker(){
   window.setInterval(function(){
@@ -119,7 +119,7 @@ function teamChecker(){
   }, 100);
 }
 
-function tutoringFormChecker(){
+/*function tutoringFormChecker(){
   window.setInterval(function(){
     console.log("a");
     console.log(localStorage.getItem("varKey"));
@@ -136,7 +136,7 @@ function tutoringFormChecker(){
       console.log("c");
     }
   }, 100);
-}
+}*/
 
 
   /*window.setInterval(function(){

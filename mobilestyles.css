@@ -63,7 +63,7 @@ html, body{
   text-align: center;
   width: 25%;
   font-size: 2vh;
-  background-color: #8fc5e3;
+  background-color: #ff0000;
   cursor: pointer;
 }
 
@@ -100,10 +100,11 @@ html, body{
   display: block;
   margin: 0 auto;
   border: none;
-  background-color: #8fc5e3;
+  background-color: #ff0000;
   margin-top: 2vh;
   color: white;
   outline: none;
+  border-radius: 5%;
 }
 
 #mobileDonateButton:active{
@@ -117,7 +118,7 @@ html, body{
 }
 
 .mobileServiceRequestButton{
-  background-color: #8fc5e3;
+  background-color: #ff0000;
   display: grid;
   margin: 0 auto;
   width: 45vw;
@@ -126,6 +127,7 @@ html, body{
   color: white;
   outline: none;
   border: none;
+  border-radius: 5%;
 }
 
 .mobileServiceRequestButton:active{
