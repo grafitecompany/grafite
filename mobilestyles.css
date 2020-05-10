@@ -29,14 +29,14 @@ html, body{
 #mobileHeaderText{
   font-family: 'Exo 2';
   height: 8vh;
-  width: 30vw;
+  width: 22vh;
   margin: 0;
   padding: 0;
   display: inline-block;
   position: absolute;
   top: 0;
   left: 0vw;
-  font-size: 8vw;
+  font-size: 6vh;
   border: 0;
   background-color: white;
   outline: none;
@@ -49,7 +49,7 @@ html, body{
   display: inline-block;
   position: absolute;
   top: 0;
-  left: 30vw;
+  left: 21vh;
 }
 
 #mobileNavButtonContainer{
