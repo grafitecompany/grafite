@@ -20,9 +20,10 @@ function homeChecker(){
       console.log("c");
     }
   }, 100);
-  window.blur(function(){
-    sessionStorage.clear();
-  })
+  window.addEventListener("beforeunload", function(event) {
+    memory += "1"
+    sessionStorage.setItem("varKey", memory);
+  });
 }
 
 /*function contactChecker(){
