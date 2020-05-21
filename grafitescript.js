@@ -20,10 +20,10 @@ function homeChecker(){
       console.log("c");
     }
   }, 100);
-  window.addEventListener("beforeunload", function(event) {
-    memory += "1"
-    sessionStorage.setItem("varKey", memory);
-  });
+  window.onbeforeunload = function(){
+    memory = "asdf";
+    sessionStorage.setItem("varkey", memory);
+  };
 }
 
 /*function contactChecker(){
@@ -121,6 +121,33 @@ function teamChecker(){
   }, 100);
 }
 
+function eightballChecker(){
+  window.setInterval(function(){
+    console.log("a");
+    console.log(localStorage.getItem("varKey"));
+    let memory;
+
+    if(document.body.clientWidth > document.body.clientHeight){
+      console.log("You're dumb.")
+    }
+
+    if((document.body.clientWidth > document.body.clientHeight) && (sessionStorage.getItem("varKey") != "Desktop")){ //Desktop
+      memory = "Desktop";
+      sessionStorage.setItem("varKey", memory);
+      window.location.href = "./grafiteeightball.html"
+      console.log("b");
+    }else if((document.body.clientWidth < document.body.clientHeight) && (sessionStorage.getItem("varKey") != "Mobile")){ //Mobile
+      memory = "Mobile";
+      sessionStorage.setItem("varKey", memory);
+      window.location.href = "./mobileeightball.html";
+      console.log("c");
+    }
+  }, 100);
+  window.onbeforeunload = function(){
+    memory = "asdf";
+    sessionStorage.setItem("varkey", memory);
+  };
+}
 /*function tutoringFormChecker(){
   window.setInterval(function(){
     console.log("a");
