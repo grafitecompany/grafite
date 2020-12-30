@@ -13,7 +13,7 @@ html, body{
   padding: 0;
 }
 #navbarbackground{
-  width: 100vw;
+  width: 100%;
   height: 9vh;
   background-color: white;
 }
@@ -116,7 +116,7 @@ html, body{
 }
 
 #homepagemessage{
-  width: 100vw;
+  width: 100%;
   height: 30vh;
   /*border: 1px solid black;*/
   background: rgba(242, 242, 242, 0);
@@ -219,7 +219,7 @@ html, body{
 }
 
 #footer{
-  width: 100vw;
+  width: 100%;
   position: static;
   bottom: 0;
   height: 30vh;
@@ -230,7 +230,7 @@ html, body{
 #contentWrap{
   position: static;
   min-height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 #footerGrafiteText{
