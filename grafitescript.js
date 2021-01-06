@@ -4,7 +4,7 @@ function homeChecker(){
     console.log(location);
     if ((window.innerWidth > window.innerHeight) && (location == "https://grafite.org/mobilehome.html")) {
       window.location.href = "./index.html";
-    } else if ((window.innerWidth < window.innerHeight) && (location == "https://grafite.org/mobilehome.html")) {
+    } else if ((window.innerWidth < window.innerHeight) && (location == "https://grafite.org/index.html")) {
       window.location.href = "./mobilehome.html";
     }
   }, 100)
