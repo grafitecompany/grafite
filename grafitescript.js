@@ -2,32 +2,25 @@ function homeChecker(){
   window.setInterval(function() {
     let location = window.location.href;
     console.log(location);
-    if ((window.innerWidth > window.innerHeight) && (location == "file:///D:/Documents/Grafite/mobilehome.html")) {
+    if ((window.innerWidth > window.innerHeight) && (location == "https://grafite.org/mobilehome.html")) {
       window.location.href = "./index.html";
-    } else if ((window.innerWidth < window.innerHeight) && (location == "file:///D:/Documents/Grafite/index.html")) {
+    } else if ((window.innerWidth < window.innerHeight) && (location == "https://grafite.org/mobilehome.html")) {
       window.location.href = "./mobilehome.html";
     }
   }, 100)
 }
 
-/*function contactChecker(){
-  window.setInterval(function(){
-    console.log("a");
-    console.log(localStorage.getItem("varKey"));
-    let memory;
-    if((document.body.clientWidth > document.body.clientHeight) && sessionStorage.getItem("varKey") !== "Desktop"){ //Desktop
-      memory = "Desktop";
-      sessionStorage.setItem("varKey", memory);
-      window.location.href = "./grafitecontactus.html"
-      console.log("b");
-    }else if((document.body.clientWidth < document.body.clientHeight) && sessionStorage.getItem("varKey") !== "Mobile"){ //Mobile
-      memory = "Mobile";
-      sessionStorage.setItem("varKey", memory);
+function contactChecker(){
+  window.setInterval(function() {
+    let location = window.location.href;
+    console.log(location);
+    if ((window.innerWidth > window.innerHeight) && (location == "https://grafite.org/mobileContactUs.html")) {
+      window.location.href = "./grafitecontactus.html";
+    } else if ((window.innerWidth < window.innerHeight) && (location == "https://grafite.org/grafitecontactus.html")) {
       window.location.href = "./mobileContactUs.html";
-      console.log("c");
     }
-  }, 100);
-}*/
+  }, 100)
+}
 
 /*function donationRequestChecker(){
   window.setInterval(function(){
@@ -49,63 +42,42 @@ function homeChecker(){
 }*/
 
 function missionChecker(){
-  window.setInterval(function(){
-    console.log("a");
-    console.log(localStorage.getItem("varKey"));
-    let memory;
-    if((document.body.clientWidth > document.body.clientHeight) && sessionStorage.getItem("varKey") !== "Desktop"){ //Desktop
-      memory = "Desktop";
-      sessionStorage.setItem("varKey", memory);
-      window.location.href = "./grafiteourmission.html"
-      console.log("b");
-    }else if((document.body.clientWidth < document.body.clientHeight) && sessionStorage.getItem("varKey") !== "Mobile"){ //Mobile
-      memory = "Mobile";
-      sessionStorage.setItem("varKey", memory);
+  window.setInterval(function() {
+    let location = window.location.href;
+    console.log(location);
+    if ((window.innerWidth > window.innerHeight) && (location == "https://grafite.org/mobileOurMission.html")) {
+      window.location.href = "./grafiteourmission.html";
+    } else if ((window.innerWidth < window.innerHeight) && (location == "https://grafite.org/grafiteourmission.html")) {
       window.location.href = "./mobileOurMission.html";
-      console.log("c");
     }
-  }, 100);
+  }, 100)
 }
 
 function servicesChecker(){
-  window.setInterval(function(){
-    console.log("a");
-    console.log(localStorage.getItem("varKey"));
-    let memory;
-    if((document.body.clientWidth > document.body.clientHeight) && sessionStorage.getItem("varKey") !== "Desktop"){ //Desktop
-      memory = "Desktop";
-      sessionStorage.setItem("varKey", memory);
-      window.location.href = "./grafiteservices.html"
-      console.log("b");
-    }else if((document.body.clientWidth < document.body.clientHeight) && sessionStorage.getItem("varKey") !== "Mobile"){ //Mobile
-      memory = "Mobile";
-      sessionStorage.setItem("varKey", memory);
+  window.setInterval(function() {
+    let location = window.location.href;
+    console.log(location);
+    if ((window.innerWidth > window.innerHeight) && (location == "https://grafite.org/mobileServices.html")) {
+      window.location.href = "./grafiteservices.html";
+    } else if ((window.innerWidth < window.innerHeight) && (location == "https://grafite.org/grafiteservices.html")) {
       window.location.href = "./mobileServices.html";
-      console.log("c");
     }
-  }, 100);
+  }, 100)
 }
 
 function teamChecker(){
-  window.setInterval(function(){
-    console.log("a");
-    console.log(localStorage.getItem("varKey"));
-    let memory;
-    if((document.body.clientWidth > document.body.clientHeight) && sessionStorage.getItem("varKey") !== "Desktop"){ //Desktop
-      memory = "Desktop";
-      sessionStorage.setItem("varKey", memory);
-      window.location.href = "./grafiteteam.html"
-      console.log("b");
-    }else if((document.body.clientWidth < document.body.clientHeight) && sessionStorage.getItem("varKey") !== "Mobile"){ //Mobile
-      memory = "Mobile";
-      sessionStorage.setItem("varKey", memory);
+  window.setInterval(function() {
+    let location = window.location.href;
+    console.log(location);
+    if ((window.innerWidth > window.innerHeight) && (location == "https://grafite.org/mobileTeam.html")) {
+      window.location.href = "./grafiteteam.html";
+    } else if ((window.innerWidth < window.innerHeight) && (location == "https://grafite.org/grafiteteam.html")) {
       window.location.href = "./mobileTeam.html";
-      console.log("c");
     }
-  }, 100);
+  }, 100)
 }
 
-function eightballChecker(){
+/*function eightballChecker(){
   window.setInterval(function(){
     console.log("a");
     console.log(localStorage.getItem("varKey"));
@@ -131,7 +103,7 @@ function eightballChecker(){
     memory = "asdf";
     sessionStorage.setItem("varkey", memory);
   };
-}
+}*/
 /*function tutoringFormChecker(){
   window.setInterval(function(){
     console.log("a");
