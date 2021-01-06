@@ -45,7 +45,7 @@ function missionChecker(){
   window.setInterval(function() {
     let location = window.location.href;
     console.log(location);
-    if ((window.innerWidth > window.innerHeight) && (location == "https://grafite.org/mobileOurMission.html")) {
+    if ((window.innerWidth >= 1.2 * window.innerHeight) && (location == "https://grafite.org/mobileOurMission.html")) {
       window.location.href = "./grafiteourmission.html";
     } else if ((window.innerWidth < window.innerHeight) && (location == "https://grafite.org/grafiteourmission.html")) {
       window.location.href = "./mobileOurMission.html";
