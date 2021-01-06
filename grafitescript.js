@@ -1,29 +1,13 @@
 function homeChecker(){
-  window.setInterval(function(){
-    console.log("a");
-    console.log(localStorage.getItem("varKey"));
-    let memory;
-
-    if(document.body.clientWidth > document.body.clientHeight){
-      console.log("You're dumb.")
-    }
-
-    if((document.body.clientWidth > document.body.clientHeight) && (sessionStorage.getItem("varKey") != "Desktop")){ //Desktop
-      memory = "Desktop";
-      sessionStorage.setItem("varKey", memory);
-      window.location.href = "./index.html"
-      console.log("b");
-    }else if((document.body.clientWidth < document.body.clientHeight) && (sessionStorage.getItem("varKey") != "Mobile")){ //Mobile
-      memory = "Mobile";
-      sessionStorage.setItem("varKey", memory);
+  window.setInterval(function() {
+    let location = window.location.href;
+    console.log(location);
+    if ((window.innerWidth > window.innerHeight) && (location == "file:///D:/Documents/Grafite/mobilehome.html")) {
+      window.location.href = "./index.html";
+    } else if ((window.innerWidth < window.innerHeight) && (location == "file:///D:/Documents/Grafite/index.html")) {
       window.location.href = "./mobilehome.html";
-      console.log("c");
     }
-  }, 100);
-  window.onbeforeunload = function(){
-    memory = "asdf";
-    sessionStorage.setItem("varkey", memory);
-  };
+  }, 100)
 }
 
 /*function contactChecker(){
