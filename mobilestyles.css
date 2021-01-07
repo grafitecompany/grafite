@@ -87,16 +87,16 @@ html, body{
 
 #mobileDonateMessage{
   width: 80%;
-  font-size: 5vw;
+  font-size: 2vh;
   text-align: center;
   display: block;
-  margin: 0 auto;
+  margin: 8% auto 0 auto;
 }
 
 #mobileDonateButton{
   width: 30vw;
   height: 8vh;
-  font-size: 4vw;
+  font-size: 2vh;
   display: block;
   margin: 0 auto;
   border: none;
