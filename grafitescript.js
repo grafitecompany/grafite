@@ -81,6 +81,19 @@ function teamChecker(){
   }, 100)
 }
 
+function achievementsChecker() {
+  window.setInterval(function() {
+    let location = window.location.href;
+    console.log(location);
+    if ((window.innerWidth > window.innerHeight) && (location == "https://grafite.org/mobileAchievements.html")) {
+      window.location.href = "./achievements.html";
+    } else if ((window.innerWidth < window.innerHeight) && (location == "https://grafite.org/achievements.html")) {
+      window.location.href = "./mobileAchievements.html";
+    }
+  }, 100)
+}
+}
+
 /*function eightballChecker(){
   window.setInterval(function(){
     console.log("a");

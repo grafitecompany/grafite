@@ -153,3 +153,36 @@ html, body{
   margin-top: 5vh;
   margin-bottom: 5vh;
 }
+
+#mobileAchievementsBackground {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 80vw;
+  height: 24vh;
+  position: absolute;
+  left: 10vw;
+  top: 22vh;
+  z-index: 10;
+}
+
+#mobileAchievementsButton {
+  background-color: red;
+  width: 30vw;
+  height: 6vh;
+  font-size: 3vw;
+  color: white;
+  position: absolute;
+  left: 25vw;
+  top: 16vh;
+  border: none;
+  outline:none;
+}
+
+#mobileAchievementsText {
+  color: white;
+  width: 60vw;
+  left: 10vw;
+  font-size: 6vw;
+  position: absolute;
+  top: 3vh;
+  text-align: center;
+}
