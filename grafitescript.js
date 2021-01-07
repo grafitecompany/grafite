@@ -7,6 +7,10 @@ function homeChecker(){
     } else if ((window.innerWidth < window.innerHeight) && (location == "https://grafite.org/index.html")) {
       window.location.href = "./mobilehome.html";
     }
+
+    /*if ((window.innerWidth < 1.6 * window.innerHeight) && location == "file:///D:/Documents/Grafite/index.html") {
+      document.getElementById("homepagemessageheader").style.marginBottom = "15vw";
+    }*/
   }, 100)
 }
 
