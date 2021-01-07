@@ -92,7 +92,7 @@ function achievementsChecker() {
     }
   }, 100)
 }
-}
+
 
 /*function eightballChecker(){
   window.setInterval(function(){
