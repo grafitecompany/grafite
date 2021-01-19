@@ -48,7 +48,22 @@ function contactChecker(){
 function missionChecker(){
   window.setInterval(function() {
     let location = window.location.href;
+    let ratio = window.innerWidth / window.innerHeight;
     console.log(location);
+    //location == "https://grafite.org/grafiteourmission.html"
+    if (ratio > 1.7122 && location == "https://grafite.org/grafiteourmission.html") {
+      document.getElementById("missioninfo").style.fontSize = "0.9vw";
+    } else if (ratio <= 1.7122 && ratio > 1.3792 && location == "https://grafite.org/grafiteourmission.html") {
+      document.getElementById("missioninfo").style.fontSize = "1vw";
+    } else if (ratio <= 1.3792 && ratio > 1.1702 && location == "https://grafite.org/grafiteourmission.html") {
+      document.getElementById("missioninfo").style.fontSize = "1.1vw";
+    } else if (ratio <= 1.1702 && ratio > 1.0462 && location == "https://grafite.org/grafiteourmission.html") {
+      document.getElementById("missioninfo").style.fontSize = "1.2vw";
+    } else if (ratio <= 1.0462 && location == "https://grafite.org/grafiteourmission.html") {
+      document.getElementById("missioninfo").style.fontSize = "1.3vw";
+    }
+
+
     if ((window.innerWidth >= 1.2 * window.innerHeight) && (location == "https://grafite.org/mobileOurMission.html")) {
       window.location.href = "./grafiteourmission.html";
     } else if ((window.innerWidth < window.innerHeight) && (location == "https://grafite.org/grafiteourmission.html")) {
